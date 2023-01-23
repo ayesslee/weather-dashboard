@@ -3,7 +3,7 @@
 ## Description
 
 A weather dashboard that allows users to view the current weather with a 5-day forecast. Users will be able to search for specific cities to view the weather in that area.
-![screenshot of application](/images/GaOqQU8.png)
+![screenshot of application](/assets/images/GaOqQU8.png)
 
 ## Usage
 
