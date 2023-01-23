@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter Tight", "Segoe UI", Helvetica,
+    Arial, sans-serif, "Segoe UI Symbol";
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px;
+  line-height: 1.8;
+}
+
+header {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgb(151, 63, 251) 0%,
+    rgb(70, 252, 237) 100%
+  );
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 26px;
+  width: 100%;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for search button */
+button {
+  text-align: center;
+  display: inline-block;
+  width:100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color:  #47aee1;
+  color: #ffffff;
+}
+
+/* Changes color of button when hovered over */
+button:hover {
+  background-color: #47aee1;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+
+/* Makes code container flex & moves search box to the left */
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* search section padding */
+.search-section {
+  padding: 25px;
+}
+
+#search:hover {
+  background-color: rgb(165, 72, 226);
+}
+
+/* search input bar */
+#search-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  border-radius: 0.3rem;
+}
+
+/* Search history */
+.searchHistory {
+  background-color: #9ea7aa;
+  margin: 10px 0px;
+}
+
+/* Styling for current daily forecast */
+#daily-forecast {
+  border: 1px gray solid;
+  width: 99%;
+  margin-left: 9px;
+  margin-top: 12px;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+/* Makes it so that the current city and its weather icon are displayed on the same line  */
+#current-city {
+  display: inline;
+  vertical-align:top;
+}
+
+
+/* Container for five-day forecast */
+#forecast-info {
+  padding: 10px;
+  width: 99vh;
+}
+
+/* Container for five-day forecast cards */
+#five-day-forecast {
+  display: flex;
+  width: 99vh;
+}
+
+/* Styling for five-day weather forecast cards */
+.card {
+  padding: 10px;
+  margin: 5px;
+  width: 50%;
+  border: 1px solid #1a1a1a;
+  background-color: rgb(68, 146, 219);
+  color: white;
+  border-radius: 10px;
+}
+
+/* Styles the first card so that the margin aligns with the daily forecast div above it */
+.card:first-of-type {
+  margin-left: 0px;
+}

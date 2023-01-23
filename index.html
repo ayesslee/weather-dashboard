@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <!-- linking stylesheet and styling -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+
+  <body>
+    <header>Weather Dashboard</header>
+
+    <div id="container">
+      <!-- search bar -->
+      <div class="search-section">
+        <h2>Search for a City</h2>
+        <form id="search-form">
+          <input id="search-input" type="text" placeholder="City name" />
+          <button id="search">Search</button>
+        </form>
+
+        <hr />
+
+        <!-- Ssearch history section -->
+        <div id="search-history"></div>
+      </div>
+
+      <!-- forecast for current day -->
+      <div>
+        <div id="daily-forecast">
+          <h2 id="current-city">Daily Forecast </h2>
+          <img id="current-icon" />
+          <p id="current-temp">Temp:</p>
+          <p id="current-wind">Wind:</p>
+          <p id="current-humidity">Humidity:</p>
+        </div>
+
+        <!-- 5 day forecast -->
+        <div id="forecast-info">
+        <h2>5-Day Forecast</h2>
+
+        <!-- Day 1 -->
+        <div id="five-day-forecast">
+          <div class="card">
+            <h2 class="card-title"></h2>
+            <img class="five-day-icon-display" />
+            <p class="five-day-temp">Temp:</p>
+            <p class="five-day-wind">Wind:</p>
+            <p class="five-day-humidity">Humidity:</p>
+          </div>
+
+          <!-- Day 2 -->
+          <div class="card">
+            <h2 class="card-title"></h2>
+            <img class="five-day-icon-display" />
+            <p class="five-day-temp">Temp:</p>
+            <p class="five-day-wind">Wind:</p>
+            <p class="five-day-humidity">Humidity:</p>
+          </div>
+
+          <!-- Day 3 -->
+          <div class="card">
+            <h2 class="card-title"></h2>
+            <img class="five-day-icon-display" />
+            <p class="five-day-temp">Temp:</p>
+            <p class="five-day-wind">Wind:</p>
+            <p class="five-day-humidity">Humidity:</p>
+          </div>
+
+          <!-- Day 4 -->
+          <div class="card">
+            <h2 class="card-title"></h2>
+            <img class="five-day-icon-display" />
+            <p class="five-day-temp">Temp:</p>
+            <p class="five-day-wind">Wind:</p>
+            <p class="five-day-humidity">Humidity:</p>
+          </div>
+
+          <!-- Day 5 -->
+          <div class="card">
+            <h2 class="card-title"></h2>
+            <img class="five-day-icon-display" />
+            <p class="five-day-temp">Temp:</p>
+            <p class="five-day-wind">Wind:</p>
+            <p class="five-day-humidity">Humidity:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- linking script files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
