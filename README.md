@@ -7,6 +7,7 @@ A weather dashboard that allows users to view the current weather with a 5-day f
 
 ## Usage
 
+* [Link to deployed site](https://ayesslee.github.io/weather-dashboard/)
 * Enter a city name into the search box 
 * forecast information will display on the page of searched city
 
